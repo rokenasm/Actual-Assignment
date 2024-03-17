@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display:grid;
     grid-template-columns: 100%;
@@ -12,6 +19,8 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+   
+
 
 .hamburger-menu {
     height: 0.8em;
@@ -136,7 +145,7 @@ body{
  .sidebar{
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0; 
     height: 100vh;
     width: 250px;
     z-index:999;
