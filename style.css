@@ -265,3 +265,68 @@ button:hover{
     cursor: pointer;
 }
 
+/* PROJECT PAGE */
+
+.project1{
+    border: 2px solid rgb(30, 0, 255);
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    border-radius: 20px;
+    margin: 10px;
+    justify-items: center;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)
+}
+
+
+.project2{
+    border: 2px solid rgb(30, 0, 255);
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    border-radius: 20px;
+    margin: 10px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(90,253,45,1) 100%);
+    justify-items: center;
+}
+    
+
+.project3{
+    border: 2px solid rgb(30, 0, 255);
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    border-radius: 20px;
+    margin: 10px;
+    background: rgb(180,58,115);
+    background: radial-gradient(circle, rgba(180,58,115,1) 0%, rgba(29,172,253,1) 50%, rgba(65,156,229,1) 58%, rgba(38,165,245,1) 73%, rgba(252,69,103,1) 100%);
+    justify-items: center;
+}
+
+.project4{
+    border:2px solid rgb(30, 0, 255);
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    border-radius: 20px;
+    margin:10px;
+    background: rgb(180,58,115);
+    background: radial-gradient(circle, rgba(180,58,115,1) 0%, rgba(40,40,0,1) 67%, rgba(252,69,103,1) 100%);
+    justify-items: center;
+}
