@@ -33,10 +33,61 @@ body{
     background-color: blue;
     color: white;
     grid-area: header;
-    padding: 2em;
+   
 
 }
 .nav-links{
     display: none;
 }
+
+.main{
+    display: block;
+}
+
+.image{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40px;
+}
+
+.boxborder{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items:center ;
+    background-color: black;
+    overflow: hidden;
+    border-radius:20px;
+    display: flex;
+    z-index: 2;
+    left: 40px;
+    bottom: 100px;
+}
+
+.boxborder::before{
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 140%;
+    background-color: rgb(255, 221, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    animation: animate 4s linear infinite;
     
+
+}
+
+.boxborder::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background-color: rgb(219, 230, 0);
+    border-radius: 16px;
+}
+
