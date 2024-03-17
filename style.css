@@ -38,9 +38,13 @@ main{
 
 footer{
     background-color: rgb(125, 125, 125);
-    color: red;
+    color: white;
     grid-area: footer;
     height: 10vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
 
 
 }
