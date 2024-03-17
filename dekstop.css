@@ -333,3 +333,8 @@ button:hover{
 .sidebar{
     display:none;
 }
+
+.container1{
+    width: 100px;
+    height: 400px;
+}

@@ -333,13 +333,9 @@ button:hover{
     display:none;
 }
 
-.sitereport{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
-.image2{
+
+.container1{
     width: 100px;
     height: 400px;
 }
