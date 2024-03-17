@@ -1,0 +1,14 @@
+body{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav nav"
+    "main main main "
+    "footer footer footer";
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
