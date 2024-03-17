@@ -38,10 +38,11 @@ body{
    
 
 }
+
 .nav-links{
     gap: 1em;
     list-style: none;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 .main{
@@ -121,10 +122,17 @@ body{
 
  .sidebar li{
     width: 100%;
+    gap: 1em;
+    list-style: none;
+    font-size: 0.8em;
+    display: block;
 
  }
  .sidebar a{
     width: 100%;
+    justify-items: center;
+    font-size: 3em;
+    
  }
 
  .logo{
