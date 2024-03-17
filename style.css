@@ -334,8 +334,28 @@ button:hover{
 }
 
 
+.picture1{
+    width: 150px;
+    height: 150px;
+}
 
-.container1{
-    width: 100px;
-    height: 400px;
+.picture2{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.picture3{
+    width: 150px;
+    height: 150px;
+}
+
+.picture4{
+    width: 150px;
+    height: 150px;
+}
+
+.picture5{
+    width: 150px;
+    height: 150px;
 }
