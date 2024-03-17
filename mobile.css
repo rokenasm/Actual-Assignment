@@ -7,10 +7,10 @@ body{
     "nav"
     "main"
     "footer";
-    background-color: blue;
+    background-color: rgb(16, 26, 117);
 }
 
-.showNav {
+.hamburger-menu {
     height: 0.8em;
     width: 1.25em;
     display: block;
@@ -19,7 +19,9 @@ body{
     margin: 1em;
 }
 
-.showNav::before{
+
+
+.hamburger-menu::before{
     content: '';
     position: absolute;
     width: 1.25em;
@@ -30,14 +32,16 @@ body{
 
 
 .header{
-    background-color: blue;
+    background-color: rgb(9, 9, 122);
     color: white;
     grid-area: header;
    
 
 }
 .nav-links{
-    display: none;
+    gap: 1em;
+    list-style: none;
+    font-size: 0.7em;
 }
 
 .main{
@@ -69,6 +73,7 @@ body{
     z-index: 2;
     left: 40px;
     bottom: 100px;
+
 }
 
 .boxborder::before{
@@ -91,3 +96,60 @@ body{
     border-radius: 16px;
 }
 
+ nav li:first-child{
+    margin-right: auto;
+ }
+
+ .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index:999;
+    background-color: rgb(255, 255, 255,0.50);
+    backdrop-filter:  blur(10px);
+    box-shadow: -10px 0 10px black;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    
+
+ }
+
+ .sidebar li{
+    width: 100%;
+
+ }
+ .sidebar a{
+    width: 100%;
+ }
+
+ .logo{
+    display: none;
+ }
+
+
+#clicked .on {
+    display: block;
+}
+
+#clicked .off{
+    display: none;
+
+}
+#clicked:target .on{
+    display: none;
+}
+
+#clicked:target .off{
+    display: block;
+}
+
+#clicked:target .sidebar{
+    display: block;
+
+}
+   
